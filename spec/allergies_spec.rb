@@ -1,3 +1,5 @@
+require 'tools/allergies'
+
 RSpec.describe Tools::Allergies do
   describe "Determine whether or not they're allergic to a given item" do
     it 'matches the allergen with the score' do

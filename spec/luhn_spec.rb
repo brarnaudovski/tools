@@ -1,3 +1,5 @@
+require 'tools/luhn'
+
 RSpec.describe Tools::Luhn do
   it "doesn't allow single digit string" do
     luhn = Tools::Luhn.new('1')
